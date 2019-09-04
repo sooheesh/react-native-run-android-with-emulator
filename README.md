@@ -1,5 +1,5 @@
 # open-android-emulator
-Opens the android emulator and connects to a virtual device.
+Opens the android emulator and connects to the latest version device. (Use it with React Native and IntelliJ)
 
 
 ### Open virtual device with the latest version API.
