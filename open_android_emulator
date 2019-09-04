@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Modify permission to give IntelliJ access to this file
+# $ chmod a+x open_android_emulator
+
+echo Emulator List:
+echo 
+emulator -list-avds
+echo ------------------
+echo 
+
+if [ $# -eq 0 ]; then
+  emulatorList=$(emulator -list-avds)
+
+  idx=0
+  maxVer=0
+  maxVerIdx=0
+  for emulator in $emulatorList
+  do
+    emulator=$(echo "$emulator" | tr "_" " ")
+    emulator=$(echo "$emulator" | awk '{ print $NF }')
+
+    if [ $emulator -gt $maxVer ]; then
+      maxVer=$emulator
+      maxVerIdx=$idx
+    fi
+
+    idx=$((idx + 1))
+  done
+
+  arr=($emulatorList)
+  emulator=${arr[maxVerIdx]}
+
+else
+  emulator=$1
+fi
+
+echo Opening emulator $emulator
+emulator -avd $emulator &
