@@ -13,6 +13,9 @@ $ ./open_android_emulator && react-native run-android
 $ ./open_android_emulator
 ```
 
+![](https://user-images.githubusercontent.com/24663059/64327445-a9489c00-d006-11e9-92ff-cdb341706ad5.png)
+
+
 ### Open target virtual device
 ```
 $ ./open_android_emulator Pixel_3_XL_API_28
