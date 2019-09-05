@@ -18,19 +18,30 @@ $ ./open_android_emulator Pixel_3_XL_API_28
 - Go to Run/Debug Configurations.
 - Add `React Native`.
 
-![](https://user-images.githubusercontent.com/24663059/64314601-860ff380-cfea-11e9-8f8d-ddffa3fd8f30.png)
+![](https://user-images.githubusercontent.com/24663059/64314837-501f3f00-cfeb-11e9-9094-ce8d39c683c7.png)
+![](https://user-images.githubusercontent.com/24663059/64314838-501f3f00-cfeb-11e9-92bf-014e241f08df.png)
 
 - Find `Before Launch`.
 - Click `+` to add new configuration.
 - Add `Run External Tool` and Click `+` again.
 
-![](https://user-images.githubusercontent.com/24663059/64314606-8ad4a780-cfea-11e9-802f-ebf38e4160fa.png)
+![](https://user-images.githubusercontent.com/24663059/64314839-50b7d580-cfeb-11e9-9eb4-68f5b7896fc3.png)
+![](https://user-images.githubusercontent.com/24663059/64314840-50b7d580-cfeb-11e9-9152-b92f60f29d2d.png)
 
 - In Tool Settings - Program - Browse, browse `open_android_emulator`.
 
-![](https://user-images.githubusercontent.com/24663059/64314608-9031f200-cfea-11e9-8ce9-415026d78284.png)
+![](https://user-images.githubusercontent.com/24663059/64314841-50b7d580-cfeb-11e9-9ae5-d095b07cc42f.png)
 
 - Click OK.
 - Run.
+
+
+
+
+
+
+
+
+
 
 
