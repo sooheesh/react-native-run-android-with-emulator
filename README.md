@@ -12,6 +12,12 @@ $ ./open_android_emulator
 $ ./open_android_emulator Pixel_3_XL_API_28
 ```
 
+
+### Example command line usage
+```
+$ ./open_android_emulator && react-native run-android
+```
+
 ### Example of usage in IntelliJ
 [![Example of usage in IntelliJ](http://img.youtube.com/vi/PJO1Um3gCTU/0.jpg)](https://youtu.be/PJO1Um3gCTU)
 
