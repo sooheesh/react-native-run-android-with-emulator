@@ -40,7 +40,10 @@ $ ./open_android_emulator Pixel_3_XL_API_28
 ### Permission issue
 
 Modify permission to give IntelliJ access to this file.
-```$ chmod a+x open_android_emulator```
+
+```
+$ chmod a+x open_android_emulator
+```
 
 
 
