@@ -9,6 +9,7 @@ emulator -list-avds
 echo ------------------
 echo 
 
+# Get latest version device from list if argument is empty.
 if [ $# -eq 0 ]; then
   emulatorList=$(emulator -list-avds)
 
@@ -35,5 +36,6 @@ else
   emulator=$1
 fi
 
+# Open emulator.
 echo Opening emulator $emulator
 emulator -avd $emulator &
