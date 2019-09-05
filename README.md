@@ -20,7 +20,7 @@ $ ./open_android_emulator Pixel_3_XL_API_28
 
 ---
 
-### Example of usage in IntelliJ
+### Example usage in IntelliJ
 [![Example of usage in IntelliJ](http://img.youtube.com/vi/PJO1Um3gCTU/0.jpg)](https://youtu.be/PJO1Um3gCTU)
 
 
