@@ -1,4 +1,4 @@
-# open-android-emulator
+# react-native-run-android-with-emulator
 Opens the android emulator and connects to the latest version device. (Use it with React Native and IntelliJ)
 
 
