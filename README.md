@@ -1,6 +1,12 @@
 # react-native-run-android-with-emulator
 Opens the android emulator and connects to the latest version device. (Use it with React Native and IntelliJ)
 
+### Example command line usage with React Native
+```
+$ ./open_android_emulator && react-native run-android
+```
+
+---
 
 ### Open virtual device with the latest version API.
 ```
@@ -13,11 +19,6 @@ $ ./open_android_emulator Pixel_3_XL_API_28
 ```
 
 ---
-
-### Example command line usage
-```
-$ ./open_android_emulator && react-native run-android
-```
 
 ### Example of usage in IntelliJ
 [![Example of usage in IntelliJ](http://img.youtube.com/vi/PJO1Um3gCTU/0.jpg)](https://youtu.be/PJO1Um3gCTU)
