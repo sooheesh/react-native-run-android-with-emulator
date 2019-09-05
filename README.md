@@ -12,6 +12,7 @@ $ ./open_android_emulator
 $ ./open_android_emulator Pixel_3_XL_API_28
 ```
 
+---
 
 ### Example command line usage
 ```
@@ -42,6 +43,8 @@ $ ./open_android_emulator && react-native run-android
 
 - Click OK.
 - Run.
+
+---
 
 ### Permission issue
 
